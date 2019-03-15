@@ -1,0 +1,14 @@
+---
+label: About
+hide_body: true
+display_field: title
+fields:
+- type: textarea
+  name: title
+  label: Title
+  description: Text saja
+  config:
+    wysiwyg: true
+    schema:
+      format: markdown
+  default: aku adalah anak gembala selalu riang
